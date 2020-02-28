@@ -1,5 +1,5 @@
 #Download the windows image
-FROM mcr.microsoft.com/windows/servercore:10.0.14393.2068
+FROM microsoft/windowsservercore
 
 #ensure the rights are intact to install the required tools
 RUN powershell -Command Set-ExecutionPolicy AllSigned
